@@ -30,6 +30,7 @@ class UserViewSet(viewsets.ViewSet, generics.CreateAPIView, generics.RetrieveAPI
         return [permissions.AllowAny()]
 
 # test
+#ad
 
 
 class CoursePagination(PageNumberPagination):
