@@ -31,6 +31,7 @@ class UserViewSet(viewsets.ViewSet, generics.CreateAPIView, generics.RetrieveAPI
 
 # test
 #ad
+#test continue
 
 
 class CoursePagination(PageNumberPagination):
