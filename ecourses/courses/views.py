@@ -29,6 +29,8 @@ class UserViewSet(viewsets.ViewSet, generics.CreateAPIView, generics.RetrieveAPI
 
         return [permissions.AllowAny()]
 
+# test
+
 
 class CoursePagination(PageNumberPagination):
     page_size = 3
